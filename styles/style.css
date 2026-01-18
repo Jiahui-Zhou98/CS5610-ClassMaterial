@@ -1,0 +1,202 @@
+html {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    margin: 0 auto;
+    background-color: #e4f1e5;
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    padding: 0 200px 200px 200px;
+}
+
+main {
+    flex: 1;
+}
+
+/* Navigation Styles */
+nav.menu {
+    background-color: #434242;
+    padding: 15px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+nav.menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+nav.menu ul li {
+    margin: 0 15px;
+}
+
+nav.menu ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 8px 12px;
+    display: block;
+}
+
+nav.menu ul li a:hover {
+    color: #8ad2ff;
+    background-color: #5d5d5d;
+    border-radius: 4px;
+}
+
+h1 {
+    font-size: 60px;
+    text-align: center;
+    margin: 0;
+    padding: 20px 0;
+    color: #8ad2ff;
+    text-shadow: 3px 3px 3px #b4def9;
+}
+
+h2 {
+    font-size: 40px;
+    text-align: center;
+    margin: 0;
+    padding: 20px 0;
+    color: #000000;
+    text-shadow: 3px 3px 3px #545454;
+}
+
+p,
+li,
+span {
+    font-size: 28px;
+    line-height: 2;
+    letter-spacing: 1px;
+}
+
+/* Grid Styles */
+.grid-row {
+    margin-bottom: 10px;
+}
+
+.grid-item {
+    display: inline-block; 
+    width: 150px;
+    height: 80px;
+    background-color: #8ad2ff;
+    border: 1px solid #b4def9;
+    text-align: center;
+    vertical-align: top;
+    line-height: 1.4;
+    font-size: 14px;
+    padding: 10px;
+    margin-right: 5px;
+    box-sizing: border-box;
+}
+
+/* change padding for different columns in a row */
+.example1 .case1 {
+    padding: 5px;
+    border: 5px solid rgb(135, 64, 133);
+    margin: 5px;
+}
+
+.example1 .case2 {
+    padding: 10px;
+    border: 5px solid rgb(135, 64, 133);
+    margin: 5px;
+}
+
+.example1 .case3 {
+    padding: 20px;
+    border: 5px solid rgb(135, 64, 133);
+    margin: 5px;
+}
+
+/* change border for different columns in a row */
+.example2 .case1 {
+    padding: 10px;
+    border: 5px solid rgb(236, 194, 6);
+    margin: 5px;
+}
+
+.example2 .case2 {
+    padding: 10px;
+    border: 10px solid rgb(236, 194, 6);
+    margin: 5px;
+}
+
+.example2 .case3 {
+    padding: 10px;
+    border: 20px solid rgb(236, 194, 6);
+    margin: 5px;
+}
+
+/* change margin for different columns in a row */
+.example3 .case1 {
+    padding: 10px;
+    border: 5px solid rgb(124, 198, 111);
+    margin: 5px;
+}
+.example3 .case2 {
+    padding: 10px;
+    border: 5px solid rgb(124, 198, 111);
+    margin: 10px;
+}
+.example3 .case3 {
+    padding: 10px;
+    border: 5px solid rgb(124, 198, 111);
+    margin: 20px;
+}
+
+/* Positioning Demo Styles */
+.box {
+    width: 250px;
+    height: auto;
+    min-height: 150px;
+    background-color: lightblue;
+    padding: 15px;
+    box-sizing: border-box;
+    line-height: 1.5;
+    font-size: 14px;
+}
+
+.static-box {
+    position: static;
+}
+
+.relative-box {
+    position: relative;
+    top: 50px;
+    left: 50px;
+}
+
+.absolute-box {
+    position: absolute;
+    bottom: 10%;
+    left: 80%;
+}
+
+.fixed-box {
+    position: fixed;
+    bottom: 250px;
+    left: 80%;
+}
+
+/* Footer Styles */
+.web-footer {
+    width: 100%;
+    background-color: #434242;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}

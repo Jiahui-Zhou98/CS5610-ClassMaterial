@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+
+    <!-- SEO Meta Tags -->
+    <title>Jiahui's Self-Assessment</title>
+    <meta name="author" content="Jiahui">
+    <meta name="description" content="Self-Assessment for CS5610 Web Development Course">
+    <meta name="keywords" content="HTML, CSS, Web Development, Self-Assessment, CS5610">
+    <link rel="icon" href="images/icon.JPG" type="image/x-icon">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="menu">
+        <ul>
+            <li><a href="#useful-tags">Useful Tags</a></li>
+            <li><a href="#seo">SEO</a></li>
+            <li><a href="#grid">Grid</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#font-size-examples">Font Size</a></li>
+            <li><a href="#positioning-demo">Positioning Demo</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <main>
+            <!-- Main content with one main header and 4 subheaders and sections, and a footer -->
+            <header>
+                <h1>
+                    Self-Assessment
+                </h1>
+            </header>
+
+            <!-- A list of the 10 most useful tags (e.g. div) for me in HTML -->
+            <section id="useful-tags">
+                <h2>Useful Tags</h2>
+                <ul>
+                    <li><strong>&lt;html&gt;</strong> - Defines the root of an HTML document</li>
+                    <li><strong>&lt;head&gt;</strong> - Contains meta information about the document</li>
+                    <li><strong>&lt;body&gt;</strong> - Contains the content of the HTML document</li>
+                    <li><strong>&lt;meta&gt;</strong> - Provides metadata about the HTML document</li>
+                    <li><strong>&lt;header&gt;</strong> - Represents introductory content or a set of navigational links</li>
+                    <li><strong>&lt;h1&gt; to &lt;h6&gt;</strong> - Define HTML headings</li>
+                    <li><strong>&lt;p&gt;</strong> - Defines a paragraph</li>
+                    <li><strong>&lt;ul&gt; and &lt;li&gt;</strong> - Define an unordered list and list items</li>
+                    <li><strong>&lt;a&gt;</strong> - Defines a hyperlink</li>
+                    <li><strong>&lt;img&gt;</strong> - Embeds an image in the document</li>
+                </ul>
+            </section>
+            <hr/>
+
+            <!-- SEO Meta Tags Explanation -->
+            <section id="seo">
+                <h2>SEO Meta Tags</h2>
+                <p>Important meta tags for search engine optimization and social media sharing:</p>
+                <ul>
+                    <li><strong>&lt;title&gt;</strong> - The most important SEO tag. Appears in browser tabs and search engine results. Should be descriptive and include relevant keywords.</li>
+                    <li><strong>&lt;meta name="description"&gt;</strong> - Provides a summary of the page content. Shows up as the preview text under the title in search results.</li>
+                    <li><strong>&lt;meta name="viewport"&gt;</strong> - Essential for responsive design. Controls how the page is displayed on mobile devices. Typically set to "width=device-width, initial-scale=1.0".</li>
+                    <li><strong>&lt;meta charset&gt;</strong> - Specifies the character encoding for the document. UTF-8 is the standard and supports all characters.</li>
+                    <li><strong>&lt;meta name="author"&gt;</strong> - Identifies the author of the page. Useful for content attribution.</li>
+                    <li><strong>&lt;meta name="keywords"&gt;</strong> - Lists keywords related to the page content. Note: Most modern search engines ignore this tag, but it can still be included.</li>
+                    <li><strong>&lt;meta name="robots"&gt;</strong> - Controls how search engines index and follow links on the page.</li>
+                    <li><strong>Open Graph tags (&lt;meta property="og:*"&gt;)</strong> - Used for social media sharing (Facebook, Twitter, LinkedIn). Controls how the page appears when shared, including title, description, and image.</li>
+                    <li><strong>&lt;link rel="canonical"&gt;</strong> - Helps prevent duplicate content issues by specifying the preferred URL for a page.</li>
+                    <li><strong>&lt;link rel="icon"&gt;</strong> - Specifies the favicon (favorite icon) for the page. The small icon that appears in browser tabs, bookmarks, and browser history. Common formats include .ico, .png, or .jpg files.</li>
+                </ul>
+            </section>
+            <hr/>
+
+            <!-- Create a grid of 3x3 like layout without using table, or any css, just use divs and spans -->
+            <!-- div is block-level element, span is inline-level element -->
+            <section id="grid">
+                <h2>3x3 Grid</h2>
+                <div class="grid-row">
+                    <span class="grid-item">1. Python </span>
+                    <span class="grid-item">2. Discrete Math </span>
+                    <span class="grid-item">3. Object-oriented Design </span>
+                </div>
+                <div class="grid-row">
+                    <span class="grid-item">4. Data Structure </span>
+                    <span class="grid-item">5. Algorithms </span>
+                    <span class="grid-item">6. Database Management Systems </span>
+                </div>
+                <div class="grid-row">
+                    <span class="grid-item">7. Computer Systems </span>
+                    <span class="grid-item">8. Web Development </span>
+                    <span class="grid-item">9. Computer Networks </span>
+                </div>
+            </section>
+            <hr/>
+
+            <!-- A gallery that showcases the options of box mode. Each row change the values of border, margin, and padding.-->
+            <!-- div is block-level element -->
+            <section id="gallery">
+                <h2>Gallery - Box Model Examples</h2>
+                <div class="gallery">
+                    <p>Different padding values: 5px, 10px, 20px</p>
+                    <div class="example1">
+                        <div class="case1">Viva</div>
+                        <div class="case2">la</div>
+                        <div class="case3">Vida</div>
+                    </div>
+                    
+                    <p>Different border values: 5px, 10px, 20px</p>
+                    <div class="example2">
+                        <div class="case1">Viva</div>
+                        <div class="case2">la</div>
+                        <div class="case3">Vida</div>
+                    </div>
+
+                    <p>Different margin values: 5px, 10px, 20px</p>
+                    <div class="example3">
+                        <div class="case1">Viva</div>
+                        <div class="case2">la</div>
+                        <div class="case3">Vida</div>
+                    </div>
+                </div>
+            </section>
+            <hr/>
+
+            <!-- Font Size Examples: Absolute sizes are fixed and precise, 
+             while relative sizes adapt to their context and improve responsiveness and accessibility. -->
+            <section id="font-size-examples">
+                <h2>Font Size Examples</h2>
+                <ul>
+                    <!-- fixed and precise font size-->
+                    <li style="font-size: 20px;">When life gives you lemons, make lemonade. 
+                        Px is an absolute unit used when precise and fixed sizing is required,
+                        such as buttons or icons that should not scale with the screen size.</li>
+                    <li style="font-size: 20pt;">When life gives you lemons, make lemonade. 
+                        Pt is an absolute unit commonly used in print styles,
+                        for example when designing content that will be printed.</li>
+                    
+                    <!-- relative font size-->
+                     <!-- 2vw: 2% of the viewport width -->
+                    <li style="font-size: 2vw;">When life gives you lemons, make lemonade. 
+                        Vw is relative to the viewport width and is useful for responsive
+                        text that scales with the browser window size.</li>
+                    <!-- 2em: 2 times the parent font size -->
+                    <li style="font-size: 2em;">When life gives you lemons, make lemonade. 
+                        Em is relative to the parent element’s font size and is useful
+                        for scalable components like nested menus.</li>
+                    <!-- 1.5rem: 1.5 times the root font size -->
+                    <li style="font-size: 1.5rem;">When life gives you lemons, make lemonade. 
+                        Rem is relative to the root font size and is ideal for maintaining
+                        consistent typography across an entire website.</li>
+                    <!-- 120%: 120% of the parent font size -->
+                    <li style="font-size: 120%;">When life gives you lemons, make lemonade. 
+                        Percentage-based sizes scale relative to the parent element
+                        and are useful for proportional text resizing.</li>
+                </ul>
+            </section>
+            <hr/>
+
+            <!-- Positioning Demo: Static, Relative, Absolute, Fixed -->
+            <section id="positioning-demo">
+                <h2>Positioning Demo</h2>
+                <div class="positioning-demo">
+                    <div class="box static-box">
+                        <strong>Static Positioning</strong><br>
+                        Default positioning. Elements flow normally in the document. 
+                        Use when you don't need special positioning.
+                    </div>
+                    <div class="box relative-box">
+                        <strong>Relative Positioning</strong><br>
+                        Positioned relative to its normal position. Can use top/left/right/bottom to offset. 
+                        Use for small adjustments or as a container for absolute children.
+                    </div>
+                    <div class="box absolute-box">
+                        <strong>Absolute Positioning</strong><br>
+                        Removed from normal flow, positioned relative to nearest positioned ancestor. 
+                        Use for popups, dropdowns, or overlays that need precise placement.
+                    </div>
+                    <div class="box fixed-box">
+                        <strong>Fixed Positioning</strong><br>
+                        Positioned relative to viewport, stays in place when scrolling. 
+                        Use for navigation bars, chat buttons, or elements that should always be visible.
+                    </div>
+                </div>
+            </section>
+
+        </main>
+    </div>
+
+    <!-- Footer -->
+    <footer class="web-footer">
+        <p>Footer always at the bottom of the page</p>
+    </footer>
+
+</body>
+</html>
